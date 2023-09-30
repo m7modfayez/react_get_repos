@@ -1,0 +1,81 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+*{
+  box-sizing: border-box;
+}
+body{
+  font-family: tahoma Arial;
+}
+
+/* .repos-container{
+  width: 90%;
+  /* background-color: #f6f6f6;
+  margin: auto;
+} */ */
+
+/* .get-repos{
+  background-color: #e6e6e6;
+  width: 65%;
+  padding: 20px;
+  margin-top: 50px;
+  margin-left: 15%;
+  display: flex;
+} */
+
+.head{
+  display: flex;
+}
+
+.input-style{
+  margin: 60px 0 0 10% ;
+  width: 70%;
+  height: 50px;
+  font-size: 20px;
+  padding-left: 10px;
+  border-radius: 7px;
+  border: 2px solid black;
+}
+.input-style:focus{
+  /* outline: 2px solid rgb(8, 187, 231); */
+  border: none;
+  outline: solid 2px rgb(32, 166, 207);
+}
+
+.get-button{
+  width: 160px;
+  /* display: flex; */
+  border: none;
+  margin: 60px 0 0 30px;
+  height: 52px;
+  background-color: rgb(32, 166, 207);
+  color: #ffffff;
+  text-align: center;
+  line-height: 52px;
+  font-weight: bold;
+  cursor: pointer;
+  font-size: 17px;
+  border-radius: 9px;
+}
+.get-button:hover{
+  background-color: rgb(19, 141, 179);
+  /* color: black; */
+}
+
+/* .show-data{
+  margin-top: 40px;
+  height: auto;
+} */
+
+/* .pagination-button{
+  color: rgb(240, 90, 45); 
+  background-color: rgb(255, 255, 255); 
+  border: 1px solid rgb(240, 90, 45);
+} */
+
+/* .visible{
+  display: inline;
+} */
